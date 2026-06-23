@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Khomp Agent | Amanor Labs</title>
+    <meta
+      name="description"
+      content="Khomp Agent is a private document intelligence assistant for Khomp product support, sustaining and project teams."
+    />
+    <link rel="canonical" href="https://amanorlabs.com/khompagent/" />
+    <link rel="icon" href="/assets/amanor_labs_symbol.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      body {
+        min-height: 100vh;
+      }
+
+      .agent-page {
+        align-items: center;
+        display: grid;
+        min-height: 100vh;
+        padding: 96px 24px 48px;
+      }
+
+      .agent-panel {
+        background: rgba(255, 255, 255, 0.94);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 18px;
+        box-shadow: 0 24px 80px rgba(5, 12, 28, 0.24);
+        color: #111827;
+        margin: 0 auto;
+        max-width: 860px;
+        padding: 36px;
+      }
+
+      .agent-panel h1 {
+        color: #0b132b;
+        font-size: clamp(2rem, 5vw, 4rem);
+        margin: 0 0 16px;
+      }
+
+      .agent-panel p {
+        color: #3f4b5f;
+        font-size: 1.1rem;
+        line-height: 1.7;
+      }
+
+      .agent-status {
+        background: #edf7f6;
+        border: 1px solid #b8dfd9;
+        border-radius: 12px;
+        color: #0f4f4a;
+        margin: 24px 0;
+        padding: 16px;
+      }
+
+      .agent-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-link" href="/" aria-label="Amanor Labs home">
+        <img src="/assets/amanor_labs_logo_reverse.svg" alt="Amanor Labs" width="176" height="44" />
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/#portfolio">Solutions</a>
+        <a href="/#platform">Platform</a>
+        <a href="/#company">Company</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="agent-page">
+      <section class="agent-panel">
+        <p class="eyebrow">Private document intelligence</p>
+        <h1>Khomp Agent</h1>
+        <p>
+          Khomp Agent is an evidence-based assistant for product documentation, support, sustaining and project teams.
+          It starts clean and allows authorized administrators to upload documents directly into a private Datalake.
+        </p>
+        <div class="agent-status">
+          This public route is reserved for the Khomp Agent application. The app requires a backend runtime for uploads,
+          audit logs and secure OpenAI access, so GitHub Pages alone cannot execute the full service.
+        </div>
+        <p>
+          The runtime package is prepared for deployment under <strong>/khompagent/</strong>. Once the backend service is
+          attached to this route, administrators can load the Khomp product documents directly in the application.
+        </p>
+        <div class="agent-actions">
+          <a class="cta-button cta-primary" href="/">Back to Amanor Labs</a>
+          <a class="cta-button cta-secondary" href="mailto:contact@amanorlabs.com?subject=Khomp%20Agent%20Deployment">Request access</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
